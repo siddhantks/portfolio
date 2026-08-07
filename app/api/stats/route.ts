@@ -3,11 +3,11 @@ import { NextResponse } from "next/server";
 export async function GET() {
   try {
     const [userRes, reposRes] = await Promise.all([
-      fetch("https://api.github.com/users/vaibhavjathar", {
+      fetch("https://api.github.com/users/siddhantks", {
         headers: { Accept: "application/vnd.github.v3+json" },
         next: { revalidate: 300 },
       }),
-      fetch("https://api.github.com/users/vaibhavjathar/repos?per_page=100", {
+      fetch("https://api.github.com/users/siddhantks/repos?per_page=100", {
         headers: { Accept: "application/vnd.github.v3+json" },
         next: { revalidate: 300 },
       }),

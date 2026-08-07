@@ -14,15 +14,15 @@ const STARTERS = [
 
 const SECTION_PROMPTS: Record<string, string> = {
   projects: "Which project are you most curious about?",
-  about: "Want to know what makes Vaibhav tick?",
-  experience: "Want to know what makes Vaibhav tick?",
+  about: "Want to know what makes Siddhant tick?",
+  experience: "Want to know what makes Siddhant tick?",
   battlelog: "Any questions about his background?",
   contact: "Thinking of reaching out? I can help.",
-  hero: "Ask me anything about Vaibhav 👋",
+  hero: "Ask me anything about Siddhant 👋",
 };
 
 const PROACTIVE_GREETING =
-  "Hey! I'm V.ai — Vaibhav's AI. Want me to walk you through his best projects or answer any questions?";
+  "Hey! I'm S.ai — Siddhant's AI. Want me to walk you through his best projects or answer any questions?";
 
 function scrollToSection(id: string) {
   document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
@@ -350,11 +350,11 @@ export default function AIAgent() {
               />
               <div>
                 <div className="flex items-center gap-1.5">
-                  <p className="font-mono text-xs font-semibold text-[var(--foreground)]">V.ai</p>
-                  <span className="font-mono text-[9px] text-[var(--accent)]/60 tracking-widest">·VAIBHAV&apos;S AI</span>
+                  <p className="font-mono text-xs font-semibold text-[var(--foreground)]">S.ai</p>
+                  <span className="font-mono text-[9px] text-[var(--accent)]/60 tracking-widest">·SIDDHANT&apos;S AI</span>
                 </div>
                 <p className="font-mono text-[10px] text-[var(--foreground)]/40">
-                  {loading ? "Thinking..." : "Ask me anything about Vaibhav"}
+                  {loading ? "Thinking..." : "Ask me anything about Siddhant"}
                 </p>
               </div>
             </div>
@@ -412,7 +412,7 @@ export default function AIAgent() {
                 ref={inputRef}
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
-                placeholder="Ask about Vaibhav..."
+                placeholder="Ask about Siddhant..."
                 disabled={loading}
                 className="flex-1 bg-transparent text-xs font-mono outline-none placeholder:text-[var(--foreground)]/25 text-[var(--foreground)]"
               />

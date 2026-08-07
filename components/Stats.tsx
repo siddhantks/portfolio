@@ -28,11 +28,11 @@ function AnimatedCounter({ value, duration = 1.8 }: { value: number; duration?: 
 }
 
 const STAT_ITEMS = [
-  { label: "AI Systems Built", value: 9, suffix: "" },
-  { label: "Public Repos", value: 16, suffix: "+" },
-  { label: "Hours in AI/ML", value: 8760, suffix: "+" },
-  { label: "Frameworks Mastered", value: 6, suffix: "+" },
-  { label: "Years Old", value: 21, suffix: "" },
+  { label: "Systems Built", value: 4, suffix: "+" },
+  { label: "Lines of Code", value: 7000, suffix: "+" },
+  { label: "Hours in Dev", value: 3450, suffix: "+" },
+  { label: "Frameworks Mastered", value: 5, suffix: "+" },
+  { label: "Years Old", value: 22, suffix: "" },
 ];
 
 export default function Stats() {

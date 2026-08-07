@@ -27,7 +27,7 @@ export default function Home() {
         className="py-8 text-center font-mono text-xs border-t"
         style={{ borderColor: "var(--border)", color: "var(--foreground)", opacity: 0.3 }}
       >
-        © {new Date().getFullYear()} bettercallvaibhav. All rigths reserved. 
+        © {new Date().getFullYear()} bettercall_Sidd. All rigths reserved. 
       </footer>
       <AIAgent />
     </>

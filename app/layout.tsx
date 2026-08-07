@@ -13,11 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vaibhav Jathar — AI Systems Engineer",
+  title: "Siddhant Singh — Software Engineer",
   description:
-    "Portfolio of Vaibhav Jathar — building production-ready AI systems: LangGraph agents, RAG pipelines, and edge ML that ships. B.Tech CS, MNNIT Prayagraj.",
+    "Portfolio of Siddhant Singh — Building scalable products for real-world impact: React, Next.js, and Spring Boot. B.Tech CSE, MNNIT Prayagraj.",
   keywords: [
-    "Vaibhav Jathar",
+    "Siddhant Singh",
     "AI Engineer",
     "LangGraph",
     "RAG Pipeline",
@@ -28,20 +28,20 @@ export const metadata: Metadata = {
     "FastAPI",
     "Next.js",
   ],
-  authors: [{ name: "Vaibhav Jathar", url: "https://www.linkedin.com/in/vaibhavjathar/" }],
-  creator: "Vaibhav Jathar",
+  authors: [{ name: "Siddhant Singh", url: "https://www.linkedin.com/in/siddhant-singh-mnnit-allahabad/" }],
+  creator: "Siddhant Singh",
   openGraph: {
-    title: "Vaibhav Jathar — AI Systems Engineer",
-    description: "Fault-tolerant AI systems. Not demos — systems that ship.",
+    title: "Siddhant Singh — Software Engineer",
+    description: "Fault-tolerant systems. Not demos — systems that ship.",
     type: "website",
     locale: "en_US",
-    siteName: "Vaibhav Jathar Portfolio",
+    siteName: "Siddhant Singh Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vaibhav Jathar — AI Systems Engineer",
-    description: "Fault-tolerant AI systems. Not demos — systems that ship.",
-    creator: "@vaibhavjathar",
+    title: "Siddhant Singh — Software Engineer",
+    description: "Fault-tolerant systems. Not demos — systems that ship.",
+    creator: "@SiddhantSingh",
   },
   robots: {
     index: true,
