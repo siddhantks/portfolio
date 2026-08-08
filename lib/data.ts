@@ -57,7 +57,7 @@ export const EXPERIENCE = [
     company: "K-AI Digital Works",
     role: "Web Developer",
     period: "June 2026 – Present",
-    // location: "Remote",
+    location: "Remote",
     bullets: [
       "End-to-end web architecture, performance optimization, and ongoing technical management.",
       "Managing technical maintenance, security, and continuous delivery pipelines, maintaining 99.9% uptime and optimizing core web vitals for client production applications.",
@@ -67,7 +67,7 @@ export const EXPERIENCE = [
     company: "Ardent Software Services",
     role: "Deep Learning Intern",
     period: "Mar 2026 – May 2026",
-    // location: "Remote",
+    location: "Remote",
     bullets: [
       "Engineered a high-throughput Predictive Disease Modeling framework using advanced Machine Learning techniques to automate diagnostic classification from high-dimensional clinical datasets.",
       "Benchmarked and optimized 4 classification algorithms, achieving a peak 93.72% accuracy using a hyperparameter-tuned Random Forest architecture.",
@@ -78,7 +78,7 @@ export const EXPERIENCE = [
     company: "Balajee Infratech & Constructions Pvt. Ltd.",
     role: "Data Operations Intern",
     period: "June 2025 – July 2025",
-    // location: "Remote",
+    location: "Remote",
     bullets: [
       "Spearheaded end-to-end digital data architecture and operations for Jindal Saw Limited, engineering high integrity database systems for mission critical project workflows.",
 
