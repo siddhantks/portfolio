@@ -5,18 +5,18 @@ export const OWNER = {
   email: "sidd98235@gmail.com",
   github: "https://github.com/siddhantks",
   linkedin: "https://www.linkedin.com/in/siddhant-singh-mnnit-allahabad/",
-  education: "B.Tech Computer Science, MNNIT Prayagraj (June 2026)",
+  education: "B.Tech in Computer Science and Engineering, MNNIT Allahabad (June 2026)",
   languages: "English, Hindi, Konkani",
-  seeking: "SWE/SDE Internships & Full-Time Roles",
+  seeking: "Looking for SWE/AI-ML Internships & Full-Time Roles",
 };
 
 export const ABOUT = {
   paragraphs: [
-    "I am an AI and Full-Stack Engineer passionate about building intelligent systems that bridge the gap between cutting-edge research and real-world applications. Completed my B.Tech in Computer Science at MNNIT Allahabad, I specialize in React, Next.js, Spring Boot, machine learning, and scalable backend systems.",
+    "I am an AI and Full-Stack Engineer passionate about building intelligent systems that bridge the gap between cutting-edge research and real-world applications. Completed my B.Tech in Computer Science and Engineering at MNNIT Allahabad, I specialize in React, Next.js, Spring Boot, Machine Learning, and Scalable Backend Systems.",
 
-"My engineering philosophy is simple: great software is not defined by the sophistication of its algorithms, but by the value it delivers in production. From AI-powered career coaching platforms to predictive healthcare models and deep-learning pipelines, I focus on creating systems that are fast, reliable, and designed to solve meaningful problems.",
+"My engineering thought is simple: Great software is not defined by the sophistication of its algorithms, but by the value it delivers in production. From AI-powered career coaching platforms to predictive healthcare models and deep-learning pipelines, I focus on creating systems that are fast, reliable, and designed to solve meaningful problems.",
 
-"Outside the world of code, leadership roles and team responsibilities have shaped my approach to engineering. Managing operations for hundreds of students taught me the importance of communication, ownership, and calm decision-making—qualities that I bring to every project, whether I am debugging a production issue or architecting the next feature."
+"Outside the world of code, leadership roles and team responsibilities have shaped my approach to engineering. Managing operations for hundreds of students taught me the importance of communication, ownership, and calm decision making qualities that I bring to every project, whether I am debugging a production issue or architecting the next feature."
   ],
   techStack: [
     {
@@ -57,20 +57,20 @@ export const EXPERIENCE = [
     company: "K-AI Digital Works",
     role: "Web Developer",
     period: "June 2026 – Present",
-    location: "Remote",
+    // location: "Remote",
     bullets: [
       "End-to-end web architecture, performance optimization, and ongoing technical management.",
-      "Managed technical maintenance, security, and continuous delivery pipelines, maintaining 99.9% uptime and optimizing core web vitals for client production applications.",
+      "Managing technical maintenance, security, and continuous delivery pipelines, maintaining 99.9% uptime and optimizing core web vitals for client production applications.",
     ],
   },
   {
     company: "Ardent Software Services",
     role: "Deep Learning Intern",
     period: "Mar 2026 – May 2026",
-    location: "Remote",
+    // location: "Remote",
     bullets: [
       "Engineered a high-throughput Predictive Disease Modeling framework using advanced Machine Learning techniques to automate diagnostic classification from high-dimensional clinical datasets.",
-      "Benchmarked and optimized 4 classification algorithms, achieving a peak 93.72% accuracy using ahyperparameter-tuned Random Forest architecture.",
+      "Benchmarked and optimized 4 classification algorithms, achieving a peak 93.72% accuracy using a hyperparameter-tuned Random Forest architecture.",
       "Architected an end-to-end ML pipeline, executing robust data preprocessing, domain-specific feature engineering,rigorous cross-validation, and performance evaluation.",
     ]
   },
@@ -78,9 +78,9 @@ export const EXPERIENCE = [
     company: "Balajee Infratech & Constructions Pvt. Ltd.",
     role: "Data Operations Intern",
     period: "June 2025 – July 2025",
-    location: "Remote",
+    // location: "Remote",
     bullets: [
-      "Spearheaded end-to-end digital data architecture and operations for Jindal Saw Limited, engineeringhigh-integrity database systems for mission-critical project workflows.",
+      "Spearheaded end-to-end digital data architecture and operations for Jindal Saw Limited, engineering high integrity database systems for mission critical project workflows.",
 
       "Leveraged advanced database management protocols and analytical models to optimize query performance, enforce data validation, and drive actionable operational insights.",
 
@@ -93,22 +93,34 @@ export const EXPERIENCE = [
 export const BATTLE_LOG = {
   certifications: [
     {
-      title: "Mastering Data Structures & Algorithms using C and C++",
+      title: "Mastering Data Structures & Algorithms Using C and C++",
       issuer: "Udemy",
-      date: "Feb 2026",
+      date: "Apr 2024",
       url: "https://www.udemy.com/certificate/UC-c9be3045-9f29-4adb-8e2d-0c5069c74491/",
+    },
+    {
+      title: "Certificate of Participation in BzzWings 2024 (IIM Bangalore's Entrepreneurship Summit)",
+      issuer: "Unstop",
+      date: " Jul 2024",
+      url: "https://unstop.com/certificate-preview/11b96f60-77d2-4249-9f2e-1e24808958f2",
+    },
+    {
+      title: "Successful Completion of Graphs Programming Camp (Global Rank - 130)",
+      issuer: "AlgoUniversity",
+      date: " Jul 2024",
+      url: "https://drive.google.com/file/d/1FIEOmikDfiMqh4R_vQjS9C7gMWxlF9Q6/view?usp=sharing",
     },
   ],
   achievements: [
     {
       title: "AIR 2514 (99.73 percentile) in JEE Mains 2022",
       description:
-        "felicitated by the Chief Minister of Goa.",
+        "Felicitated by the Chief Minister of Goa - Dr. Pramod Sawant.",
     },
     {
       title: "Marketing Head — E-Cell, MNNIT",
       description:
-        "Directed marketing for flagship entrepreneurial summits, securing Lakhs in corporate sponsorships and driving a 5% increase in attendee engagement.",
+        "Directed marketing for flagship entrepreneurial summits, securing Lakhs in corporate sponsorships and driving a 10% increase in attendee engagement.",
     },
     {
       title: "Mess Secretary, P.D. Tandon Boys Hostel",
@@ -132,32 +144,32 @@ export type Project = {
 export const PROJECTS: Project[] = [
   {
     id: "Q's Cinema",
-    title: "Developed a full-stack movie booking platform",
+    title: "Q's Cinema",
     description:
-      "Developed a full-stack movie booking platform with JWT authentication, real-time seat allocation, andStripe payments, optimizing MongoDB queries to reduce latency by 15%.",
+      "Developed a full-stack movie booking platform with JWT authentication, real-time seat allocation, and Stripe payments, optimizing MongoDB queries to reduce latency by 15%.",
 
     tags: ["React.js", "Node.js", "Express.js", "MongoDB", "Clerk", "Stripe"],
     github:
       "https://github.com/siddhantks/MovieTicketBooking",
     thumbnail: "connective",
-    featured: true,
+    // featured: true,
   },
   {
     id: "SENS-AI",
-    title: "AI-powered career platform",
+    title: "SENS-AI",
     description:
-      " Developed an AI-powered career platform leveraging Gemini API and Inngest for real-time resumegeneration and career insights, reducing document generation time to under 4 seconds.",
+      " Developed an AI-powered career platform leveraging Gemini API and Inngest for real-time resume generation and career insights, reducing document generation time to under 4 seconds.",
 
     tags: ["Next.js", "Prisma", "NeonDB", "Clerk", "Inngest"],
     github: "https://github.com/siddhantks/SENS-AI",
     thumbnail: "resumeiq",
-    featured: true,
+    // featured: true,
   },
   {
     id: "Sleep Stage Classification",
-    title: "EEG based sleep stage classifier",
+    title: "EEG Based Sleep Stage Classification",
     description:
-      "Worked on Transformer-based sleep stage classification system using single-channel EEG signals from the Sleep-EDF dataset, classifying five sleep stages (W, N1, N2, N3, REM) with 91.25% test accuracy using 29 spectral and temporal features.",
+      "Worked on Transformer based sleep stage classification system using single channel EEG signals from the Sleep-EDF dataset, classifying five sleep stages (W, N1, N2, N3, REM) with 91.25% test accuracy using 29 spectral and temporal features.",
     tags: [
       "python",
       "pyTorch",
@@ -167,9 +179,9 @@ export const PROJECTS: Project[] = [
       "CNN",
       "LSTM",
     ],
-    github: "https://drive.google.com/file/d/1v4ZFJCIfodUK_lMuoaXi_rVfopuaY16x/view",
-    thumbnail: "email",
-    featured: true,
+    github: "https://github.com/siddhantks/EEG-BASED-CLASSIFIER",
+    thumbnail: "studstudy",
+    // featured: true,
   },
   
 ];

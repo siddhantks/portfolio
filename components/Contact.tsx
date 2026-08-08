@@ -65,7 +65,7 @@ export default function Contact() {
           Get in Touch
         </h2>
         <p className="mt-4 text-[var(--foreground)]/50 text-sm font-mono">
-          Open to AI/ML internships, full-time roles, and interesting
+          Open to SWE/AI-ML internships, full-time roles, and interesting
           collaborations.
         </p>
       </motion.div>
@@ -222,7 +222,7 @@ export default function Contact() {
         className="mt-8"
       >
         <a
-          href="/https://drive.google.com/file/d/1JMpwpIyemgulGCqk3yp-NcFjjbYblHYD/view?usp=sharing"
+          href="https://drive.google.com/file/d/1JMpwpIyemgulGCqk3yp-NcFjjbYblHYD/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 font-mono text-xs px-4 py-2 rounded-sm border transition-all duration-200 group"

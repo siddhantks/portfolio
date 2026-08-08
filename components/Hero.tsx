@@ -7,10 +7,10 @@ import MatrixRain from "@/components/backgrounds/MatrixRain";
 
 const TITLES = [
   "Software Engineer",
-  "Web Developer",
-  "ML Engineer",
-  "Production AI",
-  "Agentic AI Builder",
+  "Full Stack Developer",
+  "Machine Learning Engineer",
+  "Data Analyst",
+  "Agentic AI Developer",
 ];
 
 export default function Hero() {
@@ -76,7 +76,7 @@ export default function Hero() {
 
         {/* Tagline */}
         <p className="max-w-xl text-[var(--foreground)]/50 font-mono text-sm tracking-wide">
-          Development · Agentic AI · ML · production-ready
+          Development · Agentic AI · ML · Scalable Systems
         </p>
 
         {/* CTAs */}

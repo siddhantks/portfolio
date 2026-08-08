@@ -32,7 +32,9 @@ const STAT_ITEMS = [
   { label: "Lines of Code", value: 7000, suffix: "+" },
   { label: "Hours in Dev", value: 3450, suffix: "+" },
   { label: "Frameworks Mastered", value: 5, suffix: "+" },
-  { label: "Years Old", value: 22, suffix: "" },
+
+  {label: "DSA Questions Solved", value: 600, suffix: "+"},
+    { label: "Years Old", value: 22, suffix: "" }
 ];
 
 export default function Stats() {
