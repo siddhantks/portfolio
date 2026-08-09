@@ -54,7 +54,7 @@ export default function Experience() {
                 </div>
                 <div className="text-right">
                   <p className="font-mono text-xs text-[var(--foreground)]/50">{job.period}</p>
-                  <p className="font-mono text-xs text-[var(--foreground)]/40">{job.location}</p>
+                  {/* <p className="font-mono text-xs text-[var(--foreground)]/40">{job.location}</p> */}
                 </div>
               </div>
 
